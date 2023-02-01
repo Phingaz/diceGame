@@ -1,7 +1,6 @@
 'use strict'
 
 window.addEventListener('DOMContentLoaded', e => {
- document.addEventListener("keypress", e => {
    document.querySelector(".btn").addEventListener("click", e => {
     //  console.log(e);
      const randomNumber1 = Math.floor(Math.random() * 6) + 1
@@ -23,7 +22,5 @@ window.addEventListener('DOMContentLoaded', e => {
      else {
        document.querySelector("h1").innerHTML = "🚩 Draw"
      }
-
-   })
  })
 })
