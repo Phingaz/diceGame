@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Random Dice Game</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <div class="container">
-      <h1>Refresh Me</h1>
+      <header>
+        <h1>Press the Space To Start <br>Click to roll dice Or Press Space Bar to Roll Dice</h1>
+      </header>
 
-      <div class="dice">
+      <div class="wrapper">
+        <div class="dice">
         <p>Player 1</p>
-        <img class="img1" src="images/dice6.png">
+        <img id="img1" src="images/dice6.png" />
       </div>
 
       <div class="dice">
         <p>Player 2</p>
-        <img class="img2" src="images/dice6.png">
+        <img id="img2" src="images/dice6.png" />
+      </div>
       </div>
 
+      <div class="button"> <button class="btn">Click to Roll</button></div>
+      <footer>Copyright ©️ Phingaz</footer>
     </div>
 
+
     <script src="index.js" charset="utf-8"></script>
-
-      </body>
-
-      <footer>
-       Copyright Phingaz ©️
-      </footer>
-    </html>
+  </body>
+</html>
